@@ -1,6 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
 
-BitCounting.CountBits(1234);
+PalindromeNumber palindromeNumber = new PalindromeNumber();
+
+
+Console.WriteLine($"{palindromeNumber.IsPalindrome(121)}");
+
 
 Console.ReadKey();
