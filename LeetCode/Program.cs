@@ -1,10 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
 
-PalindromeNumber palindromeNumber = new PalindromeNumber();
+int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
+int val = 2;
 
-
-Console.WriteLine($"{palindromeNumber.IsPalindrome(121)}");
-
-
-Console.ReadKey();
+RemoveElement removeElement = new RemoveElement();
+removeElement.RemoveElementAt(nums, val);
