@@ -1,10 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
 
-StrStrProblem strProblem = new StrStrProblem();
-int result = strProblem.StrStr("aaaaa", "bba");
+LengthOfLastWordInString lengthOfLastWordIn = new LengthOfLastWordInString();
+lengthOfLastWordIn.LengthOfLastWord("   a   bcde   ffff e");
 
-IsPalindromeString IsPalindromeString = new IsPalindromeString();
-bool test = IsPalindromeString.IsPalindrome("A man, a plan, a canal: Panama");
-
-Console.WriteLine(result);  
+Console.WriteLine();  
