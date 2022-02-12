@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
 
-LengthOfLastWordInString lengthOfLastWordIn = new LengthOfLastWordInString();
-lengthOfLastWordIn.LengthOfLastWord("   a   bcde   ffff e");
+int target = 2;
+int[] nums = { 1, 3, 5, 6 };
 
-Console.WriteLine();  
+SearchInsertPosition search = new SearchInsertPosition();
+int a = search.SearchInsert(nums, target);
+
+Console.WriteLine(a);  
